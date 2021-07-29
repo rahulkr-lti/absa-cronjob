@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: absa-config-deploy
+  namespace: sumit
+data:
+  client.name: PraveenChand-ocp
+  client.project: ABSA-ocp
+  client.status: Active-ocp
