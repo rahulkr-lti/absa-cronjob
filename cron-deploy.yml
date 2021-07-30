@@ -20,7 +20,7 @@ spec:
           containers:
           - name: cronjob-absa-deploy
             image: image-registry.openshift-image-registry.svc:5000/sumit/absademo
-            #command: ["java", "-jar", "/opt/app/configenvironment.jar", "hello", "these", "are", "from", "args"]
+            command: ["java", "-jar", "/opt/app/configenvironment.jar", "hello", "these", "are", "from", "args"]
             #command: ["java", "-jar", "/opt/app/configenvironment.jar"]
             env: 
               - name: client.name
